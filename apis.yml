@@ -1,8 +1,15 @@
 aid: anycart
 name: Anycart
-description: Anycart is a company surfaced as a portfolio company of menlo-ventures, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Anycart is a consumer grocery delivery and store-pickup platform that lets
+  shoppers enter a zip code, choose a favorite local grocery store, and shop for
+  anything they need with no price markups and no service fees. The service spans
+  multiple U.S. retailers and focuses on transparent pricing for everyday grocery
+  ordering, delivery, and pickup. Anycart was surfaced as a portfolio company of
+  Menlo Ventures and Techstars and added to the API Evangelist network for
+  enrichment. It operates a consumer web and mobile storefront (anycart.com) and
+  does not publish a public developer program, OpenAPI definition, or API
+  documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/anycart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +18,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://anycart.com/static/img/anycart-shop-share-banner-feb-2022.gif
 tags:
 - Company
+- Grocery
+- Delivery
+- eCommerce
+- Retail
+- Shopping
+- Food
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,10 @@ maintainers:
 common:
 - type: Website
   url: https://anycart.com
+- type: DomainSecurity
+  url: security/anycart-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
